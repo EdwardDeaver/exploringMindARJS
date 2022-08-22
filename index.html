@@ -8,12 +8,8 @@
   </head>
   <body>
     <a-scene mindar-image="https://cdn.glitch.global/7e3a58a4-f7ec-4e31-9b6e-2b368c070f53/targets.mind?v=1658430512263" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
-      <a-assets>
-        <a-asset-item id="cityModel" src="https://storage.polycam.io/captures/1543d706-f30d-4e71-bd46-56cb928d0636/raw.glb?t=1658168775545"></a-asset-item>
-      </a-assets>
       <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
       <a-entity mindar-image-target="targetIndex: 0">
-
         <a-entity gltf-model="#cityModel" modify-materials></a-entity>
         <a-plane color="blue" opaciy="0.5" position="0 0 0" height="0.552" width="1" rotation="0 0 0"></a-plane>
       </a-entity>
